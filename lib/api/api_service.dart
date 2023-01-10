@@ -5,7 +5,7 @@ import 'package:toko_kue_api/model/barangread.dart';
 import 'package:toko_kue_api/model/pelanggan.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://10.0.2.2/KUE_AP/api/';
+  static const String baseUrl = 'http://127.0.0.1/KUE_AP/api/';
   Future<BarangRead> getBarang() async {
     final response = await http.get(Uri.parse("${baseUrl}barang/read.php"));
     if (response.statusCode == 200) {

@@ -27,7 +27,7 @@ class _BarangListState extends State<BarangList> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Membaca API Online'),
+        title: const Text('Membaca API Online - Daftar Kue'),
       ),
       body: Center(
         child: FutureBuilder<BarangRead>(

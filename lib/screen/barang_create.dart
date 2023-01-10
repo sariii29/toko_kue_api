@@ -16,7 +16,7 @@ class _BarangCreateState extends State<BarangCreate> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('ListView API'),
+          title: const Text('Input Data Barang(nama kue)'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
